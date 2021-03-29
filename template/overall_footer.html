@@ -1,0 +1,84 @@
+		<!-- EVENT overall_footer_content_after -->
+	</div>
+
+<!-- EVENT overall_footer_page_body_after -->
+
+</div>
+<div id="page-footer">
+	<!-- INCLUDE navbar_footer.html -->
+
+	<div class="copyright">
+		<!-- IF DEBUG_OUTPUT --><br />{DEBUG_OUTPUT}<!-- ENDIF -->
+		<!-- IF U_ACP --><br /><strong><a href="{U_ACP}">{L_ACP}</a></strong><!-- ENDIF -->
+	</div>
+
+	<div id="darkenwrapper" data-ajax-error-title="{L_AJAX_ERROR_TITLE}" data-ajax-error-text="{L_AJAX_ERROR_TEXT}" data-ajax-error-text-abort="{L_AJAX_ERROR_TEXT_ABORT}" data-ajax-error-text-timeout="{L_AJAX_ERROR_TEXT_TIMEOUT}" data-ajax-error-text-parsererror="{L_AJAX_ERROR_TEXT_PARSERERROR}">
+		<div id="darken">&nbsp;</div>
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="{L_ERROR}" data-l-timeout-processing-req="{L_TIMEOUT_PROCESSING_REQ}">
+		<a href="#" class="alert_close"></a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close"></a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<!-- IF not S_IS_BOT -->{RUN_CRON_TASK}<!-- ENDIF -->
+</div>
+
+	<!-- Admin Contacts and banners block -->
+	<!-- Parters -->
+		<div align="center" id="wrap" class="partners__and__ads">
+			<strong><span class="copyright"><br/><br/> Наши партнеры:</strong><br/>
+			<div align="center">
+				<div class="partners"><a href="http://smart-ua.com.ua/" rel="nofollow" target="_phpbb" class="copyright">
+					<img src="https://forum.smartclub.org.ua/images/Banners/banner_smart_ua_service.gif" border="1">
+				</a>
+					<a href="http://autodoka.com.ua/" rel="nofollow" target="_phpbb" class="copyright"><img
+							src="https://forum.smartclub.org.ua/images/Banners/autodoka.png" border="1">
+					</a></div>
+				<br/>
+			</div>
+			<!-- Advertisement -->
+			<div align="center"><strong><span class="copyright"><br/><br/> Реклама:</div>
+			</strong><br/>
+			<div class="ads"> <a href="https://smart-style.com.ua/" rel="nofollow" target="_phpbb" class="copyright">
+				<img
+						src="https://forum.smartclub.org.ua/images/Banners/SmartStyle_Small-400х100.gif" border="1">
+			</a>
+				<a href="http://smart-kharkov.com/" rel="nofollow" target="_phpbb" class="copyright">
+					<img
+							src="https://forum.smartclub.org.ua/images/Banners/Smart_Kharkiv.png" border="1">
+				</a>
+		<a href="https://smart-ua.com.ua/" rel="nofollow" target="_phpbb" class="copyright">
+			<img
+					src="https://forum.smartclub.org.ua/images/Banners/SmartUA_400х100_HQ.png" border="1">
+		</a>
+			</div>
+		</div>
+
+
+<!-- Contacts and trademarks -->
+<div align="center"><span class="copyright"><br/>
+Написать администратору: <a href="mailto:admin@smartclub.org.ua">admin@smartclub.org.ua</a>
+<br/>
+<div align="center"><span class="copyright"><br/>
+Дизайн форума: <a href="mailto:rkritskiy@gmail.com">Roman</a> (c)SmartClub|Ua 2012-2021
+
+<script type="text/javascript" src="{T_JQUERY_LINK}"></script>
+<!-- IF S_ALLOW_CDN --><script type="text/javascript">window.jQuery || document.write('\x3Cscript src="{T_ASSETS_PATH}/javascript/jquery.min.js?assets_version={T_ASSETS_VERSION}">\x3C/script>');</script><!-- ENDIF -->
+<script type="text/javascript" src="{T_ASSETS_PATH}/javascript/core.js?assets_version={T_ASSETS_VERSION}"></script>
+<!-- INCLUDEJS forum_fn.js -->
+<!-- INCLUDEJS ajax.js -->
+<!-- EVENT overall_footer_after -->
+
+<!-- IF S_PLUPLOAD --><!-- INCLUDE plupload.html --><!-- ENDIF -->
+{$SCRIPTS}
+</body>
+</html>
