@@ -31,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 .partners{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	width: 100%;
 	align-content: center;
 }
@@ -40,6 +40,7 @@ footer, header, hgroup, menu, nav, section {
 	flex-direction: row;
 	justify-content: space-around;
 	align-content: center;
+    flex-wrap: wrap;
 	width: 100%;
 }
 .partners__and__ads img{
@@ -53,9 +54,8 @@ footer, header, hgroup, menu, nav, section {
 	filter: grayscale(20%);
 }
 .partners__and__ads a{
-	padding: 15px;
 	display: inline-block;
-	width: 90%;
+	width: 320px;
 }
 @media (max-width: 900px) {
 	#site-description h1{
