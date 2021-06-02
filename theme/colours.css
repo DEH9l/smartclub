@@ -38,6 +38,9 @@ hr {
 
 .search-header {
 	box-shadow: 0 0 10px #0075B0;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
 }
 
 /* Round cornered boxes and backgrounds
@@ -50,6 +53,7 @@ hr {
 .headerbar {
 	background-color: #cadceb;
 	color: #000000;
+	position: relative;
 }
 
 .navbar {
